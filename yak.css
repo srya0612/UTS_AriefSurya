@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(#31f205 0% , #3e95ed 40% , #ed242b 100%);
+}
+.icons{
+    display: flex;
+    position: absolute;
+    top:0%;
+    left:0%;
+    transform: translate(50%, -50%);
+    transform: translateY(50%);
+}
+.icons a{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0 ,5);
+}
+.icons a :nth-child(1):hover{
+    background-color:#3e95ed;
+}
+.icons a :nth-child(2):hover{
+    background-color: #3e95ed;
+}
+.icons a :nth-child(3):hover{
+    background-color: #3e95ed;
+}
+.icons a :nth-child(4):hover{
+    background-color: #3e95ed;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileimage{
+    width: 200px;
+}
+.profile h2{
+    color: white;
+}
+.profile h4{
+    color: white;
+}
+.text h2{
+    color: white;
+    transform: translateY(20px);
+}
+.text h5{
+    color: white;
+}
